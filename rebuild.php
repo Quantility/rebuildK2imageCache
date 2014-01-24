@@ -7,6 +7,8 @@
  * 3) run it "php -f rebuild.php"  (it overwrites existing files without notice)
  *
  * @author Robert Deutz <rdeutz@googlemail.com>
+ * 
+ *
  */
 
 // Variabels
@@ -109,5 +111,12 @@ function buildImage($sourcefile, $targetfile, $size, $jpeg_quality=70)
 	$handle->file_overwrite = true;
 	$handle->file_new_name_body = basename($targetfile,'.jpg');
 	$handle->image_x = (int) $size;
+	
+	//Watermark
+	$handle->image_watermark = dirname(__FILE__).'/../../../images/watermark.png';
+	$handle->image_watermark_position = 'BR';
+	//
+
+	
 	return $handle->Process($savepath);
 }
