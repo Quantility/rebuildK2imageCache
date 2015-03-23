@@ -12,13 +12,14 @@
  */
 
 // Variabels
-$sizeG  = 300;
-$sizeL  = 655;
-$sizeM  = 325;
-$sizeS  = 200;
-$sizeXL = 900;
-$sizeXS = 100;
-$jpeg_quality = 70;
+$sizeG  = 170; //generic
+$sizeXS = 170; //extra small
+$sizeS  = 270; //small
+$sizeM  = 570; //medium
+$sizeL  = 870; //large
+$sizeXL = 1170; //extra large
+
+$jpeg_quality = 100;
 
 /**
  * DO NOT CHANGE ANYTHING AFTER THIS LINE IF YOU DON'T KNOW WHAT YOU ARE DOING!
