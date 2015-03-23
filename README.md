@@ -3,7 +3,7 @@ rebuildK2imageCache
 
 Rebuilds the image cache directory for the Joomla Component K2
 
-It can take some time to rebuild the image cache, on my MacBook Pro it takes 5 seconds for rebuilding all sizes for one image. 
+~ 5 seconds for create 5 sizes of any image. Remove *PHP Maximum execution time* or use a very high value.
 
 How to use:
 
