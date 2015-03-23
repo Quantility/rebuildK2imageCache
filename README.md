@@ -11,4 +11,4 @@ How to use:
 
 2) Check Variables, use a size of 0 for not processing this image size
 
-3) go to the webpage www.mysite.com/media/k2/itemsrebuild.php" (it overwrites existing files without notice)
+3) go to the webpage www.mysite.com/media/k2/items/rebuild.php" (it overwrites existing files without notice)
